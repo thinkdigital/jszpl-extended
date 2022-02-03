@@ -1,6 +1,6 @@
-# JSZPL
+# JSZPL Extended
 
-![BADGE_NPM_DOWNLOADS](https://img.shields.io/npm/dt/jszpl) ![BADGE_NPM_DOWNLOADS](https://img.shields.io/npm/dw/jszpl) ![BADGE_NPM_VERSION](https://img.shields.io/npm/v/jszpl) ![BADGE_NPM_LICENCE](https://img.shields.io/npm/l/jszpl) [![BADGE_PAYPAL](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=BVBKNU8NHN2UN)
+## THIS IS AN EXTENSION OF THE ORIGINAL JSZPL
 
 Generate ZPL II from JavaScript
 `^FX No more Printer Commands!`
@@ -83,7 +83,7 @@ In a browser:
 Using npm:
 
 ```sh
-$ npm i jszpl
+$ npm i jszpl-extended
 ```
 
 In Node.js:

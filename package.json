@@ -1,6 +1,6 @@
 {
-  "name": "jszpl",
-  "version": "1.1.4",
+  "name": "jszpl-extended",
+  "version": "1.0.0",
   "description": "ZPL II generation from JavaScript",
   "main": "./src/jszpl.js",
   "scripts": {
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanieLeeuwner/JSZPL.git"
+    "url": "git+https://github.com/thinkdigital/jszpl-extended.git"
   },
   "keywords": [
     "zpl",
     "zebra",
     "zebra programming language"
   ],
-  "author": "Danie Leeuwner",
+  "author": "Diogo Resende <dresende@thinkdigital.pt>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/DanieLeeuwner/JSZPL/issues"
+    "url": "https://github.com/thinkdigital/jszpl-extended/issues"
   },
-  "homepage": "https://github.com/DanieLeeuwner/JSZPL#readme",
+  "homepage": "https://github.com/thinkdigital/jszpl-extended#readme",
   "devDependencies": {
     "jest": "^27.0.4",
     "pngjs": "^6.0.0",
