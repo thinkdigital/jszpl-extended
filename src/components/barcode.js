@@ -15,6 +15,7 @@ module.exports = class Barcode extends BaseVisualComponent {
     this.type = new BarcodeType(BarcodeTypeName.CODE_11);
 
     this.subset = '';
+    this.mode = 'N';
     this.interpretationLine = true;
 
     this.notImplemented = ['typeName', 'invert'];
@@ -83,7 +84,7 @@ module.exports = class Barcode extends BaseVisualComponent {
         break;
 
       case BarcodeTypeName.Code128:
-        zpl += '^BCN,' + position.height + ',' + (this.interpretationLine ? 'Y' : 'N') + ',N,N,N';
+        zpl += '^BCN,' + position.height + ',' + (this.interpretationLine ? 'Y' : 'N') + ',N,N,' + this.mode;
 
         if(this.dataPrepend === '') {
           switch (this.subset) {
